@@ -1,0 +1,25 @@
+# =============================================================================
+# PYTHON DEPENDENCIES — Install with: pip install -r pipeline/requirements.txt
+# =============================================================================
+
+# Web scraping
+requests         # HTTP client — fetches web pages and downloads PDFs
+beautifulsoup4   # HTML parser — extracts text from HTML (finds tags, removes junk)
+lxml             # Fast HTML/XML parser — BeautifulSoup uses this as its engine
+playwright       # Real browser automation — handles JavaScript-rendered pages
+                 # After install, run: playwright install chromium
+
+# PDF parsing
+pdfplumber       # PDF text + TABLE extraction — way better than PyPDF2 for tables
+                          # Can extract tables as structured data (rows/columns)
+
+# Database
+psycopg[binary]  # PostgreSQL client — runs SQL queries from Python
+                          # "binary" version = pre-compiled, no need to install C libraries
+
+# OpenAI
+openai         # Official OpenAI SDK — for generating embeddings
+                          # We use text-embedding-3-small model
+
+# Environment variables
+python-dotenv     # Reads .env files — loads OPENAI_API_KEY and DATABASE_URL

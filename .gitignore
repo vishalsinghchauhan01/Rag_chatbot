@@ -1,0 +1,10 @@
+node_modules
+.next
+.env*.local
+scraped-data
+downloaded-pdfs
+__pycache__
+*.pyc
+.venv
+*.pdf
+.claude/
