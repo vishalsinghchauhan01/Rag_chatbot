@@ -1,0 +1,140 @@
+{
+  "boards": [
+    {
+      "name": "CBSE",
+      "full_name": "Central Board of Secondary Education",
+      "grading_system": "Percentage in Class 12. CGPA system up to Class 10 (discontinued from 2023 for marks-based).",
+      "cgpa_to_percentage_formula": "CGPA x 9.5 = approximate percentage (applicable for older CGPA-based results only)",
+      "recognized_nationally": true,
+      "notes": "Most widely recognized board in India. Curriculum aligned with NCERT. JEE and NEET syllabus closely matches CBSE curriculum.",
+      "streams": [
+        {
+          "stream_code": "PCM",
+          "stream_name": "Science (Physics, Chemistry, Mathematics)",
+          "subjects": ["Physics", "Chemistry", "Mathematics", "English", "Computer Science / Informatics Practices / Physical Education"],
+          "typical_career_paths": ["Engineering", "IT / Software", "Data Science", "Architecture", "Research", "Defence Services"]
+        },
+        {
+          "stream_code": "PCB",
+          "stream_name": "Science (Physics, Chemistry, Biology)",
+          "subjects": ["Physics", "Chemistry", "Biology", "English", "Psychology / Physical Education / Home Science"],
+          "typical_career_paths": ["Medicine (MBBS)", "Dentistry", "Pharmacy", "Nursing", "Physiotherapy", "Biotechnology", "Forensic Science"]
+        },
+        {
+          "stream_code": "Commerce",
+          "stream_name": "Commerce",
+          "subjects": ["Accountancy", "Business Studies", "Economics", "English", "Mathematics / Informatics Practices"],
+          "typical_career_paths": ["Chartered Accountant (CA)", "MBA", "Finance", "Banking", "Company Secretary (CS)", "Cost Accountant (CMA)"]
+        },
+        {
+          "stream_code": "Humanities",
+          "stream_name": "Humanities / Arts",
+          "subjects": ["History", "Political Science", "Geography", "English", "Psychology / Sociology / Economics / Fine Arts"],
+          "typical_career_paths": ["Civil Services (IAS/IPS)", "Law", "Journalism", "Psychology", "Social Work", "Teaching", "Design"]
+        }
+      ]
+    },
+    {
+      "name": "ICSE",
+      "full_name": "Indian Certificate of Secondary Education (Class 10) / ISC (Class 12)",
+      "grading_system": "Percentage-based in both Class 10 (ICSE) and Class 12 (ISC).",
+      "cgpa_to_percentage_formula": "Not applicable. ICSE/ISC uses percentage directly.",
+      "recognized_nationally": true,
+      "notes": "Known for comprehensive English curriculum and broader subject coverage. ISC (Class 12) is the equivalent board exam. Slightly broader syllabus than CBSE. Equally accepted by all universities.",
+      "streams": [
+        {
+          "stream_code": "PCM",
+          "stream_name": "Science (Physics, Chemistry, Mathematics)",
+          "subjects": ["Physics", "Chemistry", "Mathematics", "English", "Computer Science / Environmental Science"],
+          "typical_career_paths": ["Engineering", "IT / Software", "Data Science", "Architecture", "Research"]
+        },
+        {
+          "stream_code": "PCB",
+          "stream_name": "Science (Physics, Chemistry, Biology)",
+          "subjects": ["Physics", "Chemistry", "Biology", "English", "Psychology / Home Science"],
+          "typical_career_paths": ["Medicine (MBBS)", "Dentistry", "Pharmacy", "Nursing", "Biotechnology"]
+        },
+        {
+          "stream_code": "Commerce",
+          "stream_name": "Commerce",
+          "subjects": ["Accounts", "Commerce", "Economics", "English", "Mathematics / Computer Science"],
+          "typical_career_paths": ["CA", "MBA", "Finance", "Banking", "Company Secretary"]
+        },
+        {
+          "stream_code": "Humanities",
+          "stream_name": "Humanities / Arts",
+          "subjects": ["History", "Political Science", "Geography", "English", "Sociology / Psychology / Fine Arts"],
+          "typical_career_paths": ["Civil Services", "Law", "Journalism", "Psychology", "Teaching"]
+        }
+      ]
+    },
+    {
+      "name": "Uttarakhand Board",
+      "full_name": "Uttarakhand Board of School Education (UBSE)",
+      "grading_system": "Percentage-based.",
+      "cgpa_to_percentage_formula": "Not applicable. Uses percentage directly.",
+      "recognized_nationally": true,
+      "notes": "State board of Uttarakhand. Students from Uttarakhand Board get the Himalayan State 25% scholarship on tuition at DIT University. Syllabus based on NCERT with some state-specific additions.",
+      "streams": [
+        {
+          "stream_code": "PCM",
+          "stream_name": "Science (Physics, Chemistry, Mathematics)",
+          "subjects": ["Physics", "Chemistry", "Mathematics", "English", "Hindi / Sanskrit"],
+          "typical_career_paths": ["Engineering", "IT", "Data Science", "Defence"]
+        },
+        {
+          "stream_code": "PCB",
+          "stream_name": "Science (Physics, Chemistry, Biology)",
+          "subjects": ["Physics", "Chemistry", "Biology", "English", "Hindi / Sanskrit"],
+          "typical_career_paths": ["Medicine", "Pharmacy", "Nursing", "Agriculture"]
+        },
+        {
+          "stream_code": "Commerce",
+          "stream_name": "Commerce",
+          "subjects": ["Accountancy", "Business Studies", "Economics", "English", "Hindi"],
+          "typical_career_paths": ["CA", "MBA", "Banking"]
+        },
+        {
+          "stream_code": "Humanities",
+          "stream_name": "Arts / Humanities",
+          "subjects": ["Hindi", "English", "History", "Geography", "Political Science / Sociology"],
+          "typical_career_paths": ["Civil Services", "Teaching", "Law", "Journalism"]
+        }
+      ]
+    },
+    {
+      "name": "State Board (General)",
+      "full_name": "Various State Boards (UP Board, Bihar Board, MP Board, Rajasthan Board, etc.)",
+      "grading_system": "Percentage-based. Each state has its own board and marking scheme.",
+      "cgpa_to_percentage_formula": "Not applicable. Most state boards use percentage directly.",
+      "recognized_nationally": true,
+      "notes": "All major state boards are recognized nationally and accepted by DIT University and other private universities. Some state boards are perceived as easier (higher scores) but all are equally valid for admission.",
+      "streams": [
+        {
+          "stream_code": "PCM",
+          "stream_name": "Science (Physics, Chemistry, Mathematics)",
+          "subjects": ["Physics", "Chemistry", "Mathematics", "English / Hindi", "Optional"],
+          "typical_career_paths": ["Engineering", "IT", "Teaching", "Research"]
+        },
+        {
+          "stream_code": "PCB",
+          "stream_name": "Science (Physics, Chemistry, Biology)",
+          "subjects": ["Physics", "Chemistry", "Biology", "English / Hindi", "Optional"],
+          "typical_career_paths": ["Medicine", "Pharmacy", "Nursing", "Agriculture"]
+        },
+        {
+          "stream_code": "Commerce",
+          "stream_name": "Commerce",
+          "subjects": ["Accountancy", "Business Studies", "Economics", "English / Hindi", "Optional"],
+          "typical_career_paths": ["CA", "MBA", "Banking"]
+        },
+        {
+          "stream_code": "Humanities",
+          "stream_name": "Arts / Humanities",
+          "subjects": ["Hindi / Regional Language", "English", "History", "Geography", "Political Science / Optional"],
+          "typical_career_paths": ["Civil Services", "Teaching", "Law"]
+        }
+      ]
+    }
+  ]
+}

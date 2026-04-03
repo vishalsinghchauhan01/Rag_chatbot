@@ -1,0 +1,19 @@
+{
+  "name": "Dehradun",
+  "state": "Uttarakhand",
+  "tier": "tier2",
+  "rent_pg_min": 4000,
+  "rent_pg_max": 8000,
+  "rent_shared_min": 3000,
+  "rent_shared_max": 6000,
+  "rent_1bhk_min": 7000,
+  "rent_1bhk_max": 12000,
+  "food_mess_monthly": 3000,
+  "food_outside_monthly": 5000,
+  "food_cooking_monthly": 2500,
+  "transport_bus_pass": 800,
+  "transport_auto_daily": 2000,
+  "transport_bike_fuel": 1500,
+  "misc_monthly": 2000,
+  "notes": "Dehradun is a tier-2 city and the capital of Uttarakhand. It has a moderate cost of living compared to metro cities. Most student accommodations are along Mussoorie Road, Rajpur Road, and Clement Town areas. The city has a pleasant climate year-round. Auto-rickshaws are the most common mode of local transport. Vikram (shared autos) run on fixed routes at Rs 10-20 per ride."
+}

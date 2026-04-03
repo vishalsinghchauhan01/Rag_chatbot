@@ -1,0 +1,50 @@
+[
+  {
+    "mode": "college_bus",
+    "description": "DIT University operates 15 buses with safety features (fire extinguishers, first-aid box) covering major areas of Dehradun.",
+    "monthly_cost": 2200,
+    "route_details": "Multiple routes covering Dehradun city. Fee is Rs 22,000 for 10 months.",
+    "pickup_points": [
+      "IT Park",
+      "Raipur",
+      "Maharana Pratap Sports Stadium",
+      "Doiwala",
+      "Subhash Nagar",
+      "Clement Town",
+      "ITBP",
+      "Selaqui Industrial Area",
+      "Garhi Cant",
+      "Vijay Colony",
+      "Hathibarkala",
+      "Mussoorie Bus Stand",
+      "Dilaram Chowk",
+      "Jakhan",
+      "Mussoorie Diversion"
+    ],
+    "frequency": "Morning and evening trips aligned with college timings"
+  },
+  {
+    "mode": "public_bus",
+    "description": "Dehradun city buses and Vikram (shared auto-rickshaws) run on fixed routes. Vikram fare is Rs 10-20 per ride.",
+    "monthly_cost": 800,
+    "route_details": "City buses from ISBT and Railway Station pass through Mussoorie Road near DIT campus.",
+    "pickup_points": ["ISBT Dehradun", "Dehradun Railway Station", "Clock Tower", "Rajpur Road"],
+    "frequency": "Every 15-30 minutes on major routes"
+  },
+  {
+    "mode": "auto",
+    "description": "Auto-rickshaws available throughout Dehradun. Can be hired from railway station, ISBT, or city center to DIT campus.",
+    "monthly_cost": 2000,
+    "route_details": "DIT is approximately 10 KM from Dehradun city center on Mussoorie-Diversion Road.",
+    "pickup_points": [],
+    "frequency": "Available throughout the day"
+  },
+  {
+    "mode": "cab",
+    "description": "Ola and Uber available in Dehradun. Local taxis can also be hired. Airport/railway station pickup available on request from university.",
+    "monthly_cost": null,
+    "route_details": "From Jolly Grant Airport: ~30 KM. From Dehradun Railway Station: ~10 KM. From ISBT: ~8 KM.",
+    "pickup_points": [],
+    "frequency": "On-demand via app"
+  }
+]
